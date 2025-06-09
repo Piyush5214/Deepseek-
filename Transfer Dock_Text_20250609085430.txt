@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DeepSeek Portal</title>
+  <style>
+    body {
+      background: #0d1117;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      background-color: #1f6feb;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #388bfd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to DeepSeek</h1>
+  <p>Click below to explore the official DeepSeek platform.</p>
+  <a class="button" href="https://deepseek.com/" target="_blank">Go to DeepSeek</a>
+</body>
+</html>
